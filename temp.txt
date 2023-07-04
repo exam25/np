@@ -1,0 +1,4 @@
+INADDR_ANY 
+BulkSendHelper source("ns3::TcpSocketFactory", InetSocketAddress(i.GetAddress(1), 9));
+PacketSinkHelper sink("ns3::TcpSocketFactory", InetSocketAddress(Ipv4Address::GetAny(), 9));
+QT_X11_NO_MITSHM=1 
